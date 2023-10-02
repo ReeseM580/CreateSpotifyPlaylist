@@ -77,7 +77,7 @@ def create_playlist(token, songs):
         print("Error creating the playlist. Status code:", response.status_code)
         print(response.json())
 
-def get_user_id():
+"""def get_user_id():
     url = f"https://api.spotify.com/v1/me"
     headers = get_auth_header(token)#need to pass user id or user token 
     response = requests.get(url, headers = headers)
@@ -87,7 +87,7 @@ def get_user_id():
         print("got user id", user_id)
         return user_id
     else:
-        print("Error fetching user profile:", response.status_code)
+        print("Error fetching user profile:", response.status_code)"""
     
 """Authorization url
 https://accounts.spotify.com/authorize
